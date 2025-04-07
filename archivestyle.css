@@ -1,3 +1,32 @@
+body {
+    background-color: rgb(73, 121, 70);
+  }
+
 .site-logo {
-    width: 100px;
+    width: 150px;
+    padding-right: 30px;
 }
+
+.site-nav{
+    display:flexbox;
+}
+
+.site-header{
+    display:flex;
+   
+}
+
+
+.wrapper {
+    border: 1px solid black ;
+    border-radius: 3%;
+    top: 200px;
+ 
+    background:rgb(255, 255, 255);
+    height: 630px;
+    width: 800px;
+    overflow: auto;
+    padding:20px;
+    margin: 0 auto;
+}
+
