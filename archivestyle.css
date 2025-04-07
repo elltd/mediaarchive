@@ -21,7 +21,9 @@ body {
     border: 1px solid black ;
     border-radius: 3%;
     top: 200px;
- 
+    font-family: "akzidenz-grotesk-next-conden", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background:rgb(255, 255, 255);
     height: 630px;
     width: 800px;
