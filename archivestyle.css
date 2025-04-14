@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(73, 121, 70);
+    background-color:#E9E7D9 ;
   }
 
 .site-logo {
@@ -7,28 +7,80 @@ body {
     padding-right: 30px;
 }
 
-.site-nav{
-    display:flexbox;
-}
-
 .site-header{
     display:flex;
-   
 }
+header {
+    padding-top: 10px;
+    padding-left:10px;
+
+    width: 890px;
+   /* border-bottom: 1px solid black;*/
+   background: #819a48;
+   font-size: 25px;
+    color:white;
+    font-family: "degular-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+}
+
+.site-header a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .site-header a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .site-header a:hover {
+    color: rgb(73, 121, 70);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 
 .wrapper {
-    border: 1px solid black ;
-    border-radius: 3%;
+   /* border: 1px solid black ;
+    border-radius: 2%;*/
     top: 200px;
-    font-family: "akzidenz-grotesk-next-conden", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background:rgb(255, 255, 255);
-    height: 630px;
-    width: 800px;
+   /* font-family: "akzidenz-grotesk-next-conden", sans-serif;*/
+
+    background: #f5f4ed;
+    height: 675px;
+    width: 900px;
     overflow: auto;
-    padding:20px;
     margin: 0 auto;
+    font-family: "degular-mono", sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 20px;
+
+
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 3px;
+}
+
+.primary-statement {
+  font-family: "degular-mono", sans-serif;
+line-height: 40px;
+}
