@@ -1,59 +1,111 @@
 body {
-    background-color:#E9E7D9 ;
+    background-color:#f8f8f8 ;
+    margin:auto 0px;
   }
 
 .site-logo {
-    width: 150px;
+  float: left;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.pma-logo {
+    height:100%;
+}
+
+/*.searchbar {
+  float: right;
+ width: 300px;
+ height:25px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  background-color:#f8f8f8 ;
+margin: auto;
+margin-right: 25px;
+}*/
+
+.searchbar {
+float: right;
+margin-left: 10px;
+margin-right: 25px;
+
+}
+
+.search-container input[type=text] {
+  float: right;
+  min-width: 250px;
+  max-width: 600px;
+  height:25px;
+   border-radius: 15px;
+   border: 1px solid #000000;
+   background-color:#f8f8f8 ;
+  margin-top: 13px;
+  padding-left: 15px;
 }
 
 .site-header{
     display:flex;
+    background-color: #F8F8F8;
+    font-size: 20px;
+     font-family: "degular-mono", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    border-bottom: 1px solid black;
+    position:fixed;
+    width: 100%;
+    min-width: 900px;
+    line-height: 55px;
+    height:55px;
+    
 }
 
-
-header {
-    padding-top: 10px;
-    padding-left:10px;
-
-    width: 890px;
-   /* border-bottom: 1px solid black;*/
-   background: #819a48;
-   font-size: 25px;
-    color:white;
-    font-family: "degular-mono", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-    justify-content:space-around;
+.site-nav {
+  overflow: hidden;
 }
 
-.site-header a:link {
-    color: rgb(255, 255, 255);
+.sections {
+  display: flex;
+  justify-content: center;
+  right: 0;
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+.section-name {
+  padding-right: 25px;
+}
+
+.sections a:link {
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
-  .site-header a:visited {
-    color: rgb(255, 255, 255);
+  .sections a:visited {
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
 
-  .site-header a:hover {
-    color: rgb(73, 121, 70);
+  .sections a:hover {
+    color: rgb(127, 140, 127);
     background-color: transparent;
     text-decoration: none;
   }
 
 
-.wrapper {
+#header-padding {
+  height: 70px;
+}
+
+.root-wrapper {
    /* border: 1px solid black ;
     border-radius: 2%;*/
     top: 200px;
    /* font-family: "akzidenz-grotesk-next-conden", sans-serif;*/
 
-    background: #f5f4ed;
-    height: 675px;
-    width: 900px;
+    background: #f8f8f8;
+    height:100%;
+    width: 1000px;
     overflow: auto;
     margin: 0 auto;
     font-family: "degular-mono", sans-serif;
@@ -80,6 +132,7 @@ footer {
     text-align: center;
     font-size: 1em;
     line-height: 3px;
+    margin-top: 60px;
 }
 
 .primary-statement {
@@ -95,15 +148,16 @@ margin: 0%;
 
 .review-profile {
   display: grid;
-  grid-template-columns: 150px 575px;
+  grid-template-columns: 150px 650px;
   column-gap: 15px;
   overflow: hidden;
-  max-width:900px;
+  max-width:850px;
   border-radius: 15px;
   border: 2px solid #819a48;
-  background-color:#f0f0e8 ;
+  background-color:#f8f8f8 ;
   padding: 5px 20px 5px 20px;
-  margin: 20px;
+  margin: auto;
+  margin-bottom: 20px;
 
   }
 
