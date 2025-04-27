@@ -100,9 +100,9 @@ margin-right: 25px;
 .root-wrapper {
    /* border: 1px solid black ;
     border-radius: 2%;*/
-    top: 200px;
    /* font-family: "akzidenz-grotesk-next-conden", sans-serif;*/
-
+    
+    top: 200px;
     background: #f8f8f8;
     height:100%;
     width: 1000px;
@@ -124,6 +124,15 @@ main {
 h1{
     font-size: 45px;
     text-align: center;
+}
+
+.subtitle {
+  font-size: 35px;
+  text-align: center;
+}
+
+.blurb {
+  text-align: center;
 }
 
 footer {
@@ -153,28 +162,37 @@ margin: 0%;
   overflow: hidden;
   max-width:850px;
   border-radius: 15px;
-  border: 2px solid #819a48;
+  border: 2px solid #000000;
   background-color:#f8f8f8 ;
   padding: 5px 20px 5px 20px;
   margin: auto;
   margin-bottom: 20px;
-
   }
-
 
 .recent-reviews {
   display: grid;
-  grid-template-columns:266px 266px 266px;
-  column-gap: 15px;
-  overflow: hidden;
-  font-size: 14px;
-  line-height: 15px;
+  grid-template-columns:300px 300px 300px;
+  column-gap: 20px;
+  font-size: 15px;
+  line-height: 20px;
   margin: auto 0px;
+  align-items: top;
 }
 
 .showcase-item {
   text-align: center;
   margin: 0 auto;
-  padding-left: 35px;
-  padding-right: 35px;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  background-color:#f8f8f8;
+  padding: 5px 30px 5px 30px;
+}
+
+.article {
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  background-color:#f8f8f8;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 30px;
 }
