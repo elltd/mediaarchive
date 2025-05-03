@@ -245,3 +245,75 @@ margin-bottom: 40px;
   margin-top: 1px;
 }
 
+
+.review-list a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.review-list a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.review-list a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recent-reviews a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.recent-reviews a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recent-reviews a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lead a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.lead a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lead a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.reviewers a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.reviewers a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.reviewers a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+i {
+  color: rgb(27, 113, 23);
+}
