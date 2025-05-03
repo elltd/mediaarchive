@@ -236,6 +236,12 @@ margin-bottom: 40px;
 }
 
 .review-desc {
-  line-height: 2px;
+  line-height: 10px;
+  font-size: 15px;
+}
+
+.photocredit {
+  font-size: 12px;
+  margin-top: 1px;
 }
 
